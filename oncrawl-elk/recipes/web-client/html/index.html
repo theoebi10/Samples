@@ -1,0 +1,62 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.gridster.min.css" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.datetimepicker.css" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="assets/css/oncrawlelk.css" charset="utf-8" />
+    <script type="text/javascript" src="assets/js/config.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="header-logo">
+            <span class="header-logo__prefix">SEO Log Analyzer by</span>
+            <img class="header-logo__image" src="assets/img/logo-oncrawl.png" alt="Logo" />
+        </div>
+        <div class="header-separator"></div>
+        <div class="header-nav">
+            <form class="header-form">
+                <div class="header-form__block">
+                    <label for="starting-at">
+                        Starting at:
+                    </label>
+                    <input id="starting-at" type="text" class="header-form__datetime" />
+                </div>
+                <div class="header-form__block">
+                    <label for="ending-at">
+                        Ending at:
+                    </label>
+                    <input id="ending-at" type="text" class="header-form__datetime" />
+                </div>
+                <div class="header-form__block">
+                   <button name="update" class="header-form__button">Apply</button>
+                </div>
+            </form>
+
+            <ul class="header-menu">
+                <li class="header-menu__item">
+                    <a name="crawl-behavior">Crawl Behavior</a>
+                </li>
+                <li class="header-menu__item">
+                    <a name="seo-impact">SEO Impact</a>
+                </li>
+                <li class="header-menu__item">
+                    <a name="exploration-sanity">Exploration Sanity</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="gridster">
+            <ul class="gridster-layout"></ul>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="assets/js/jquery.gridster.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="assets/js/moment.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="assets/js/jquery.datetimepicker.full.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="assets/js/oncrawlelk.js" charset="utf-8"></script>
+</body>
+</html>
